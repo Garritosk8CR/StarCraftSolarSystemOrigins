@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="Imagenes">
+    <file>holovanSM.png</file>
+    <file>100px-TinyDuna.png</file>
+    <file>100px-TinyEeloo.png</file>
+    <file>100px-TinyKerbin.png</file>
+    <file>jugador.png</file>
+    <file>marte.png</file>
+    <file>mercurio.png</file>
+    <file>patron-espacio.jpg</file>
+    <file>senegardeSM.png</file>
+    <file>Veldin.png</file>
+    <file>venus.png</file>
+  </qresource>
+</RCC>

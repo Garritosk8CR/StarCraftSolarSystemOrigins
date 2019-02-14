@@ -1,0 +1,9 @@
+planeta_1 320
+planeta_2 40
+planeta_3 40
+planeta_4 20
+planeta_5 20
+planeta_6 12
+planeta_7 10
+planeta_8 8
+planeta_9 4

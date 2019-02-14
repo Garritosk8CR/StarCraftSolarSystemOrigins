@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2d7ac24d-2155-499c-97f3-4b856bf2637e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{61e9a95a-f8d7-47fb-8a79-2a954657e1c1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="starcraftsolarsystemorigins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_starcraftsolarsystemorigins.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_starcraftsolarsystemorigins.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_starcraftsolarsystemorigins.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_invasion.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_invasion.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_recursoplaneta.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_recursoplaneta.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="invasion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recursoplaneta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sistemasolar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sistemasolar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sistemasolar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FabricaNodos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FabricaUnidades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaPila.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoArbin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoCola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoPila.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Planeta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unidad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_juego.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="starcraftsolarsystemorigins.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="starcraftsolarsystemorigins.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="starcraftsolarsystemorigins.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="invasion.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="invasion.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recursoplaneta.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recursoplaneta.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sistemasolar.hpp">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sistemasolar.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\juego.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_starcraftsolarsystemorigins.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_invasion.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_recursoplaneta.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sistemasolar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FabricaNodos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FabricaUnidades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Arbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Lista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Nodo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_NodoArbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Unidad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPila.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoArbin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoCola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoPila.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Planeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unidad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input1.txt" />
+    <Text Include="input2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\holovanSM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\100px-TinyDuna.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\100px-TinyEeloo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\100px-TinyKerbin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\jugador.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\marte.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\mercurio.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\patron-espacio.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\senegardeSM.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Veldin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\venus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

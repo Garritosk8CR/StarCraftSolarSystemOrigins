@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="MainMenu">
+    <file>Resources/Tagal_Psycher.png</file>
+    <file>Resources/warrior.png</file>
+    <file>Resources/starcraft_bg.jpg</file>
+  </qresource>
+</RCC>

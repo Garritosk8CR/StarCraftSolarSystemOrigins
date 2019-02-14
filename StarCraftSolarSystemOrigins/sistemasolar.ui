@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sistemaSolar</class>
+ <widget class="QWidget" name="sistemaSolar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1026</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>sistemaSolar</string>
+  </property>
+  <widget class="QFrame" name="frJuego">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>1031</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Imagenes/patron-espacio.jpg);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="lblTituloCantMovidas">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Cantidad de Movidas:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCantMovidas">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+backgroud-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTurno">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>80</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+backgroud-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>Turno:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblUnidDisponibles">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>110</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(9, 43, 8);</string>
+    </property>
+    <property name="text">
+     <string>Unidades Disponibles:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblConquistas">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>140</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(9, 43, 8);</string>
+    </property>
+    <property name="text">
+     <string>Conquistas:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTurnoJugador">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>80</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+backgroud-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblNumUnidDisponibles">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>110</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+backgroud-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCantConquista">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>140</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(9, 43, 8);</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/venus.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+border: none;
+backgroud-repeat: none;
+background-image: url(:/Imagenes/marte.png);
+
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>230</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/100px-TinyDuna.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>300</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/100px-TinyEeloo.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta9">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>450</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/100px-TinyKerbin.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta6">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>470</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/holovanSM.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta7">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>470</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/senegardeSM.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>300</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/Veldin.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPlaneta5">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>290</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+background-image: url(:/Imagenes/mercurio.png);
+border: none;
+backgroud-repeat: none;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>200</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta5">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>260</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta6">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>430</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta7">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>430</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>270</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>110</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPlaneta9">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>420</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Starcraft</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud-color: transparent;
+color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>Conquistado</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>0</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Imagenes/jugador.png);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>lblTituloCantMovidas</zorder>
+   <zorder>lblCantMovidas</zorder>
+   <zorder>lblTurnoJugador</zorder>
+   <zorder>lblTurno</zorder>
+   <zorder>lblUnidDisponibles</zorder>
+   <zorder>lblNumUnidDisponibles</zorder>
+   <zorder>lblConquistas</zorder>
+   <zorder>lblCantConquista</zorder>
+   <zorder>btnPlaneta1</zorder>
+   <zorder>btnPlaneta2</zorder>
+   <zorder>btnPlaneta3</zorder>
+   <zorder>btnPlaneta4</zorder>
+   <zorder>btnPlaneta9</zorder>
+   <zorder>btnPlaneta6</zorder>
+   <zorder>btnPlaneta7</zorder>
+   <zorder>btnPlaneta8</zorder>
+   <zorder>btnPlaneta5</zorder>
+   <zorder>lblPlaneta1</zorder>
+   <zorder>lblPlaneta3</zorder>
+   <zorder>lblPlaneta5</zorder>
+   <zorder>lblPlaneta6</zorder>
+   <zorder>lblPlaneta7</zorder>
+   <zorder>lblPlaneta4</zorder>
+   <zorder>lblPlaneta2</zorder>
+   <zorder>lblPlaneta8</zorder>
+   <zorder>lblPlaneta9</zorder>
+   <zorder>frame</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Resources/juego.qrc"/>
+ </resources>
+ <connections/>
+</ui>

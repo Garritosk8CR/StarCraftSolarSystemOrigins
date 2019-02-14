@@ -1,0 +1,9 @@
+tierra 320
+marte 40
+saturn 40
+neptune 20
+venus 20
+planetaB_1 12
+planetaB_2 10
+planetaB_3 8
+uranusB 4
